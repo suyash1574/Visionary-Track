@@ -1,0 +1,10 @@
+# Paths to training and validation data (images)
+train: D:/Projects/Visionary tracker/visionary tracker/data/processed/train/images
+val: D:/Projects/Visionary tracker/visionary tracker/data/processed/val/images
+
+# Number of classes (change if necessary)
+nc: 10  # Change this if you have more classes
+
+# Paths to annotations
+train_ann: D:/Projects/Visionary tracker/visionary tracker/data/processed/train/annotations
+val_ann: D:/Projects/Visionary tracker/visionary tracker/data/processed/val/annotations

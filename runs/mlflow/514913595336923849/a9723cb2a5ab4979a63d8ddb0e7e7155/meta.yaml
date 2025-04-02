@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/Visionary tracker/visionary tracker/runs/mlflow/514913595336923849/a9723cb2a5ab4979a63d8ddb0e7e7155/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '514913595336923849'
+lifecycle_stage: active
+run_id: a9723cb2a5ab4979a63d8ddb0e7e7155
+run_name: train6
+run_uuid: a9723cb2a5ab4979a63d8ddb0e7e7155
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743602562044
+status: 1
+tags: []
+user_id: zinju

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visionary Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            border: 2px solid #333;
+            max-width: 100%;
+        }
+        .error-message {
+            color: red;
+            font-size: 18px;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visionary Tracker - Live Object Detection and Tracking</h1>
+    <img src="{{ url_for('video_feed') }}" alt="Live Video Feed" onerror="showError()">
+    <div id="error-message" class="error-message">
+        Error: Could not load video feed. Check if the camera is connected and accessible, or if a video file is provided.
+    </div>
+
+    <script>
+        function showError() {
+            document.getElementById('error-message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
